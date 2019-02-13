@@ -2,6 +2,11 @@ import React from 'react';
 import Person from './Person/Person';
 
 const persons = props => {
+
+    // componentWillUnmount() {
+    //     console.log('[Persons.js] componentWillUnmount');
+    // }
+
     console.log('[Person.js] rendering...');
     return props.persons.map((person, index) => {
         return (
